@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chattaraa — Website Test</title>
+<meta name="description" content="หน้าแรกสำหรับทดสอบเว็บไซต์ Chattaraa">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101114;color:#f7f4ed;font-family:system-ui,-apple-system,sans-serif}header,main,footer{width:min(1100px,90%);margin:auto}header{padding:30px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ffffff20}.logo{font-weight:800;letter-spacing:.16em}.badge{font-size:12px;color:#b7f59c;border:1px solid #b7f59c55;padding:8px 12px;border-radius:30px}main{min-height:75vh;display:grid;align-items:center;padding:70px 0}.eyebrow{color:#cbb7fa;letter-spacing:.2em;font-size:13px}h1{font-size:clamp(52px,10vw,120px);line-height:1;margin:25px 0;letter-spacing:-.06em}p{color:#aaaab4;font-size:18px;line-height:1.8;max-width:620px}button{background:#cbb7fa;color:#151119;border:0;border-radius:30px;padding:15px 25px;font:inherit;font-weight:700;cursor:pointer;margin-top:20px}button:hover{background:#dfd2ff}button:focus-visible{outline:3px solid white;outline-offset:5px}#result{color:#b7f59c;min-height:32px;font-size:15px}.line{height:2px;width:100px;background:#cbb7fa;margin-top:45px}footer{border-top:1px solid #ffffff20;padding:24px 0;color:#777985;font-size:12px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<header><span class="logo">CHATTARAA</span><span class="badge">TEST PAGE · ONLINE</span></header>
+<main><section><span class="eyebrow">A NEW SPACE FOR CHATTARAA</span><h1>Hello,<br>Chattaraa.</h1><p>ยินดีต้อนรับสู่หน้าแรกของ Chattaraa<br>หน้านี้สร้างขึ้นเพื่อทดสอบการแสดงผลเว็บไซต์บนคอมพิวเตอร์และมือถือ</p><button id="test" type="button">ทดสอบเว็บไซต์ ↗</button><p id="result" role="status" aria-live="polite"></p><div class="line"></div></section></main>
+<footer><span>© 2026 CHATTARAA</span><span>หน้าเว็บทดสอบ · Version 1.0</span></footer>
+<script>document.getElementById('test').addEventListener('click',function(){document.getElementById('result').textContent='✓ เว็บไซต์และปุ่มทำงานสำเร็จ';});</script>
+</body>
+</html>
