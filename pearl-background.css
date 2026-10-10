@@ -1,0 +1,14 @@
+/* Reference-matched pale pink pearl background; original layout is retained. */
+:root{--ink:#38283a;--muted:#59425b;--line:#67456640;--wine:#754660}
+body,.hero{background-color:#f1cee9;background-image:url('/pearl-reference-background.webp');background-size:100% auto;background-position:center top}
+body{background-attachment:fixed}
+.hero::before,body::after{display:none}
+header{background:linear-gradient(#fff7fc55,transparent)}
+body,.hero-statement,.lead,h2,h3,.bio,.intro,.card p,.chapter p,.support p,.note p,.label,.video-link span{color:var(--ink)}
+.eyebrow,.chapter h3,.ribbon,nav a:hover,nav a[aria-current="page"]{color:#754660}
+nav a:hover,nav a[aria-current="page"]{border-bottom-color:#754660}
+.button.secondary,.menu-button{color:var(--ink);border-color:#67456680;background:#fff7fc55}
+.button{--icon-cutout:#fff7fc}
+@media(max-width:760px){nav.open{background:#f7d6eaf5}body{background-attachment:scroll}}
+
+.brand img,.hero h1 img{filter:brightness(.38) saturate(.65)}
