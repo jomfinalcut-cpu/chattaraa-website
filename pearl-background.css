@@ -12,3 +12,6 @@ nav a:hover,nav a[aria-current="page"]{border-bottom-color:#754660}
 @media(max-width:760px){nav.open{background:#f7d6eaf5}body{background-attachment:scroll}}
 
 .brand img,.hero h1 img{filter:brightness(.38) saturate(.65)}
+
+/* Let Contact show the same pearl backdrop as every other page. */
+.contact{background:transparent}
