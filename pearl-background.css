@@ -15,3 +15,7 @@ nav a:hover,nav a[aria-current="page"]{border-bottom-color:#754660}
 
 /* Let Contact show the same pearl backdrop as every other page. */
 .contact{background:transparent}
+
+/* Contact platform links: clear contrast on the light pearl texture. */
+.contact-topics a{color:#38283a;background:#fff7fce8;border-color:#754660;font-weight:600}
+.contact-topics a:hover,.contact-topics a:focus-visible{color:#fff7fc;background:#754660;border-color:#754660}
