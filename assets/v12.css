@@ -116,3 +116,10 @@ html[lang="th"] .about-body,html[lang="th"] .live-intro>p:not(.live-lead){font-f
 @media(max-width:1100px){.connect-inner{grid-template-columns:1.1fr 1fr 1fr;gap:35px}}
 @media(max-width:800px){.connect-inner{grid-template-columns:1fr 1fr;gap:35px}.connect-script{grid-column:1/-1}}
 @media(max-width:600px){.connect-section{padding:52px 0 28px}.connect-inner{grid-template-columns:1fr;gap:32px;padding-bottom:40px}.connect-script{font-size:98px;margin:0 0 5px}.connect-inner h3{font-size:16px;margin-bottom:15px}.site-footer p,.site-footer>a:last-child{font-size:8px}}
+
+/* Footer colors sampled from the supplied plum reference. */
+.connect-section{background:#4a2e3e;color:#e8c2d2}
+.connect-section a,.connect-section h2,.connect-section h3{color:inherit}
+.connect-section .connect-script{color:#e3a2bc}
+.connect-section .site-footer{border-top-color:#cfadbd}
+.connect-section .social-links a{border-bottom-color:#cfadbd80}
