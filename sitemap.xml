@@ -2,4 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url><loc>https://www.chattaraa.com/</loc><xhtml:link rel="alternate" hreflang="en" href="https://www.chattaraa.com/"/><xhtml:link rel="alternate" hreflang="th" href="https://www.chattaraa.com/th/"/></url>
 <url><loc>https://www.chattaraa.com/th/</loc><xhtml:link rel="alternate" hreflang="en" href="https://www.chattaraa.com/"/><xhtml:link rel="alternate" hreflang="th" href="https://www.chattaraa.com/th/"/></url>
+<url><loc>https://www.chattaraa.com/music/our-song/</loc><lastmod>2026-10-15</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://www.chattaraa.com/music/our-song/"/><xhtml:link rel="alternate" hreflang="th" href="https://www.chattaraa.com/th/music/our-song/"/></url>
+<url><loc>https://www.chattaraa.com/th/music/our-song/</loc><lastmod>2026-10-15</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://www.chattaraa.com/music/our-song/"/><xhtml:link rel="alternate" hreflang="th" href="https://www.chattaraa.com/th/music/our-song/"/></url>
 </urlset>
